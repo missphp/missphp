@@ -10,8 +10,6 @@
  $obj=new \php1506\Miss();
  $obj->dt($data);
  echo 'hello world';
-
- echo "<hr>";
-
+ //带die的打印
  $obj->dd($data);
  echo 'hello world';
