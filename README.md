@@ -1,7 +1,7 @@
 # missphp
 格式化输出数组(完善打印)
 //通过配置composer.json文件 
-/{ "require":{ "php1505/p":"dev-master" } }/ 
+/{ "require":{ "php1506/miss":"dev-master" } }/ 
 //更新composer 
 //引入类库
  require_once './vendor/autoload.php';
