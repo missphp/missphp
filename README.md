@@ -1,15 +1,15 @@
 # missphp
-格式化输出数组(完善打印)
-//通过配置composer.json文件 
-/{ "require":{ "php1506/miss":"dev-master" } }/ 
-//更新composer 
-//引入类库
- require_once './vendor/autoload.php';
- $data=['name'=>'lisi','sex'=>'man'];
- //操作
- $obj=new \php1506\Miss();
- $obj->dt($data);
- echo 'hello world';
- //带die的打印
- $obj->dd($data);
- echo 'hello world';
+<p>格式化输出数组(完善打印)</p>
+<p>//通过配置composer.json文件 </p>
+<p>/{ "require":{ "php1506/miss":"dev-master" } }/ </p>
+<p>//更新composer </p>
+<p>//引入类库</p>
+<p>require_once './vendor/autoload.php';</p>
+<p>$data=['name'=>'lisi','sex'=>'man'];</p>
+<p>//操作</p>
+<p>$obj=new \php1506\Miss();</p>
+<p>$obj->dt($data);</p>
+<p>echo 'hello world';</p>
+<p>//带die的打印</p>
+<p>$obj->dd($data);</p>
+<p>echo 'hello world';</p>
